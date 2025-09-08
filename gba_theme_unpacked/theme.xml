@@ -1,0 +1,23 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="Unnamed Theme" author="yamorza" email="Unknown" webpage="http://www.videolan.org/vlc/"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
+
+  <Bitmap id="gba" file="gba.png" alphacolor="#FF00FF"/>
+  <Bitmap id="a_button" file="a_button.png" alphacolor="#FF00FF"/>
+  <Bitmap id="b_button" file="b_button.png" alphacolor="#FF00FF"/>
+  <Bitmap id="select_button" file="select_button.png" alphacolor="#FF00FF"/>
+  <Bitmap id="start_button" file="start_button.png" alphacolor="#FF00FF"/>
+
+  <Window id="main_layout">
+    <Layout id="Main_Layout" width="1200" height="750">
+      <Image id="gba_image" image="gba" action="move"/>
+      <Video id="Unnamed Video #8" x="325" y="127" width="540" height="355"/>
+      <Button up="start_button" action="vlc.fullscreen()" id="button_start" x="219" y="425"/>
+      <Button up="a_button" action="vlc.pause()" id="button_a" x="1048" y="221"/>
+      <Button up="b_button" action="vlc.stop()" id="button_b" x="940" y="258"/>
+    </Layout>
+  </Window>
+
+</Theme>
