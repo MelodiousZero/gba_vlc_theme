@@ -1,2 +1,3 @@
-# gba_vlc_theme
-VLC theme based on GBA
+# A simple VLC theme based on GBA.
+This repo has the .vlt files for a really simple GBA theme. 
+
